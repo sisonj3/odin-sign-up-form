@@ -3,6 +3,10 @@
     src: url(./Norse-Bold.otf);
 }
 
+.page {
+    display: flex;
+}
+
 .sidebar {
     background-image: url(./tree-halie-west.jpg);
     background-size: cover;
@@ -40,4 +44,25 @@
 
 .author a {
     color: white;
+}
+
+.form-side {
+    width: 60vw;
+    height: 100vh;
+}
+
+.intro {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 2rem;
+    margin-top: 10vh;
+    max-width: 40vw;
+}
+
+.separate-p {
+    margin-top: 1rem;
+}
+
+p {
+    margin: 0px;
 }

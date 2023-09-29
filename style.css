@@ -2,3 +2,42 @@
     font-family: Norse-Bold;
     src: url(./Norse-Bold.otf);
 }
+
+.sidebar {
+    background-image: url(./tree-halie-west.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 40vw;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 25vh;
+}
+
+.logo img {
+    height: 15vh;
+}
+
+.logo h1 {
+    font-family: Norse-Bold;
+    font-size: 10vh;
+}
+
+.author {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 73vh;
+}
+
+.author a {
+    color: white;
+}
